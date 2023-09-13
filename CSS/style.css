@@ -1028,8 +1028,10 @@ footer .content .box .images {
 }
 
 footer .content .box .images img {
-  width: 90px;
-  height: 90px;
+  flex-basis: 30%;
+  width: 60px;
+  height: 60px;
+  object-fit: contain;
 }
 
 
