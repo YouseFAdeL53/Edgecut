@@ -810,7 +810,7 @@ a {
   color: var(--secondaryColor);
   z-index: -1;
   font-size: 150px;
-  opacity: 0.5;
+  opacity: 0.3;
   top: 0;
 }
 
