@@ -546,6 +546,13 @@ a {
   transition: var(--trans);
 }
 
+@media(max-width:992px) {
+  .feature .content .box h2 {
+    text-align: center;
+  }
+}
+
+
 .feature .content .box:hover h2 {
   color: var(--secondaryColor);
 }
@@ -663,12 +670,6 @@ a {
   box-shadow: 0 0 10px #DDD;
   border-radius: 6px;
   transition: var(--trans);
-}
-
-@media(max-width:992px) {
-  .blog .box {
-    text-align: center;
-  }
 }
 
 .blog .box:hover {
